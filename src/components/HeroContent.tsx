@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import HeroLogo from "@/assets/herologo.png";
-import "@/styles/herocontent.css";
 
 const HeroContent = () => {
   return (
-    <div className="grid grid-cols-2 z-50 2xl:mx-72 justify-center items-center h-[calc(100vh-10vh)] pl-24 3xl:mx-96 border border-black">
+    <div className="grid grid-cols-2 z-50 2xl:mx-72 justify-center items-center h-[calc(100vh-10vh)] pl-24 3xl:mx-96">
       <div className="">
         <div className="relative w-[420px] h-[550px]">
           <Image

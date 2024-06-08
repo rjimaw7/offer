@@ -54,3 +54,23 @@ body {
     font-size: 14px;
   }
 }
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .customTransform {
+    transform: translateX(-192px);
+  }
+
+  .customTransformDesc {
+    transform: translateX(18px);
+  }
+}
+
+@media (min-width: 1025px) {
+  .customTransform {
+    transform: translateX(-288px);
+  }
+
+  .customTransformDesc {
+    transform: translateX(128px);
+  }
+}
