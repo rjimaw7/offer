@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -29,5 +31,26 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "customFont";
+  src: url("/DrunkWideBold.ttf");
+}
+
+.herologo {
+  font-family: "customFont";
+}
+
+.btntext {
+  font-family: "customFont";
+  font-size: 16px;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .btntext {
+    font-family: "customFont";
+    font-size: 14px;
   }
 }
