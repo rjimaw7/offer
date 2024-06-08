@@ -6,7 +6,13 @@ const HeroContent = () => {
     <div className="grid grid-cols-2 z-50 2xl:mx-72 justify-center items-center h-[calc(100vh-10vh)] pl-24 3xl:mx-96">
       <div className="">
         <div className="relative w-[420px] h-[550px]">
-          <Image src="/herologo.png" fill alt="herologo" />
+          <Image
+            src="/herologo.png"
+            fill
+            alt="herologo"
+            loading="lazy"
+            placeholder="blur"
+          />
         </div>
       </div>
       <div className="grid grid-cols-1">
