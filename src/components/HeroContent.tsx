@@ -31,10 +31,10 @@ const HeroContent = () => {
               revenue-driving machine for your business.
             </p>
             <div className="text-white flex items-center gap-4">
-              <p className="border border-transparent rounded-full bg-[#FF632C] px-5 py-3 2xl:px-10 2xl:py-3 btntext cursor-pointer">
+              <p className="border border-transparent rounded-full bg-[#FF632C] px-5 py-3 btntext cursor-pointer">
                 Talk to Us
               </p>
-              <p className="border border-[#0083FE] rounded-full bg-transparent px-5 py-3 2xl:px-10 2xl:py-3 btntext cursor-pointer hover:bg-[#FF632C] hover:border-[#FF632C]">
+              <p className="border border-[#0083FE] rounded-full bg-transparent px-5 py-3 btntext cursor-pointer hover:bg-[#FF632C] hover:border-[#FF632C]">
                 See Portfolio
               </p>
             </div>

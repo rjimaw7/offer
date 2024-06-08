@@ -67,10 +67,10 @@ body {
 
 @media (min-width: 1025px) {
   .customTransform {
-    transform: translateX(-288px);
+    transform: translateX(-230px);
   }
 
   .customTransformDesc {
-    transform: translateX(128px);
+    transform: translateX(140px);
   }
 }
